@@ -1,10 +1,15 @@
 import './App.scss';
 import React from "react";
+import Search from "./components/Search";
+
+
 
 function App() {
+
+
   return (
     <div className="container">
-      <h1>React shop</h1>
+        <Search />
     </div>
   );
 }
